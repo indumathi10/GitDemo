@@ -10,6 +10,7 @@ public class names {
 
 		String names=js.getString("name");
 		System.out.println(names);
+                System.out.println("names");
 		
 		for(int i=0;i<count;i++) {
 			String name=js.get("["+i+"].name");
